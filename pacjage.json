@@ -1,0 +1,19 @@
+{
+  "name": "lena-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with tickets, AI, suggestions and voice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "@discordjs/voice": "^0.17.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0",
+    "libsodium-wrappers": "^0.7.11"
+  }
+}
+{
+  "engines": { "node": "18.x" }
+}
